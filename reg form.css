@@ -1,0 +1,48 @@
+
+*{
+    font-family:Arial,Helvetica,sans_serif;
+}
+
+
+body{
+    background-color:[]hwb(0 100% 0%)
+}
+
+
+h2{
+    text-align:center;
+    color:[]#2c503b;
+}
+
+form{
+    background-color:[]rgb(32, 131, 70);
+    width:350px;
+    padding:20px;
+    margin:auto;
+    border:1px solid []#cccccc;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea{
+    width:100%;
+    padding:8px;
+    border:1px solid []gray;
+}
+
+
+input[type="radio"],
+input[type="chechbox"]{
+    margin-right:5px;
+}
+input[type="submit"]{
+    background-color:[]#3498db;
+    color:[]rgb(255, 255, 255);
+    border:none;
+    padding:10px;
+    width:100%
+}
+
+
