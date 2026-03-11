@@ -1,0 +1,82 @@
+body{
+    font-family:Arial,sans-serif;
+    margin:0;
+    padding:0;
+    line-height:1.6;
+}
+
+header{
+    background-image:url(bg.png);
+
+    text-shadow:10px 10px 8px[]black;
+     color:[]black;
+    paddng:20px 0;
+    text-align:center;
+}
+
+header h1 {
+    margin:0;
+
+}
+header p{
+    margin:0;
+     font-size: 1.2em;
+}
+section{
+padding:20px;
+margin-top: 20px 0;
+}
+#about {
+text-align: middle;
+
+}
+#about img{
+    width: 160px;
+    height:150px;
+    border-radius: 50%;
+    margin-top:10px;
+}
+#skills ul{
+    list-style-type: disc;
+    padding:0;
+}
+#skills ul li{
+    background-color: rgb(245, 240, 255);
+    margin:5px 0;
+    padding-bottom: 0cqb;
+    border-left :  rgb(226, 43, 150);
+}
+#projects {
+    display:grid;
+   grid-column: auto;
+   justify-content: baseline;
+
+}
+.project{
+    grid-template-rows: max-content;
+    margin-top: 0%;
+}
+#resume a{
+    display:inline-block;
+    padding: 10px 20px;
+    background:blue;
+    color:aqua;
+    text-decoration:none;
+    border: radius 50px;
+}
+#resume a:hover{
+    background:#444444;
+}
+
+footer{
+
+}
+footer a{
+    text-decoration: none;
+    color:black;
+
+}
+footer a:hover{
+    background:#555;
+    
+}
